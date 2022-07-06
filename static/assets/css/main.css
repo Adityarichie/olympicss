@@ -72,7 +72,7 @@ input, select, textarea {
 	appearance: none;
 }
 
-.vote {
+#vote {
 	background-color: #3AB0FF;
 }
 
