@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -10,7 +11,7 @@
 
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="static/css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 
   <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
@@ -31,7 +32,11 @@
 
       <nav class="navbar navbar-expand-lg navbar-dark">
 
-        <a class="navbar-brand" href="">Cobra Kai</a>
+        <a class="navbar-brand" href="">tindog</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
@@ -53,162 +58,165 @@
 
       <!-- Title -->
 
+      <div class="row">
 
+        <div class="col-lg-6">
+          <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
 
-    </div>
-     <div>
-
-        <img class="yay" height="800" width="1500" src="http://images6.fanpop.com/image/photos/43700000/Cobra-Kai-Logo-Wallpaper-cobra-kai-43768662-1280-800.jpg">
+        <div class="col-lg-6">
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
 
       </div>
+
+    </div>
 
   </section>
 
 
   <!-- Features -->
 
-  <section class="white-sections" id="features">
+  <section id="features">
 
-    <div class="container-fluid">
-
-      <div class="row">
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-check-circle fa-4x"></i>
-          <h3 class="feature-title">Strike First</h3>
-          <p>Always Strike First</p>
-        </div>
-
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-bullseye fa-4x"></i>
-          <h3 class="feature-title">Strike Hard</h3>
-          <p>Strike as hard as possible </p>
-        </div>
-
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-heart fa-4x"></i>
-          <h3 class="feature-title">No Mercy</h3>
-          <p>SHOW NO MERCY</p>
-        </div>
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-check-circle fa-4x"></i>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
       </div>
 
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-bullseye fa-4x"></i>
+        <h3>Elite Clientele</h3>
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
 
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-heart fa-4x"></i>
+        <h3>Guaranteed to work.</h3>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
     </div>
+
   </section>
 
 
   <!-- Testimonials -->
 
-  <section class="colored-section" id="testimonials">
+  <section id="testimonials">
 
     <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+
       <div class="carousel-inner">
-        <div class="carousel-item active container-fluid">
-          <h2 class="testimonial-text">Join Cobra Kai and learn karate with Sensei Kreese</h2>
-          <img class="testimonial-image" height="80px" width="35px" src="https://s.yimg.com/ny/api/res/1.2/upXChqqX3hqrTFGu27WGgQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM1OA--/https://s.yimg.com/uu/api/res/1.2/Ipj9CVJnl0rAreMrn6jauQ--~B/aD02NzU7dz0xMjA4O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/consequence_of_sound_458/d135fb99cd5327d1d03b8c7fa4dcdeab" alt="dog-profile">
-          <em>sensei kreese</em>
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
         </div>
-        <div class="carousel-item container-fluid">
-          <h2 class="testimonial-text">Join Miyagi-Do and learn Karate with Sensei LaRusso</h2>
-          <img class="testimonial-image" src="https://www.indiewire.com/wp-content/uploads/2018/05/ralphdaniel-larusso-headband.jpg" alt="lady-profile">
-          <em>Sensei LaRusso</em>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
         </div>
+
+        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
       </div>
-      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-      </a>
-    </div>
+
 
   </section>
 
 
   <!-- Press -->
 
-<!--  <section class="colored-section" id="press">-->
-<!--    <hr>-->
-<!--&lt;!&ndash;    <img class="press-logo" src="static/images/techcrunch.png" alt="tc-logo">&ndash;&gt;-->
-<!--&lt;!&ndash;    <img class="press-logo" src="static/images/tnw.png" alt="tnw-logo">&ndash;&gt;-->
-<!--&lt;!&ndash;    <img class="press-logo" src="static/images/bizinsider.png" alt="biz-insider-logo">&ndash;&gt;-->
-<!--&lt;!&ndash;    <img class="press-logo" src="static/images/mashable.png" alt="mashable-logo">&ndash;&gt;-->
+  <section id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
 
-<!--  </section>-->
+  </section>
 
 
   <!-- Pricing -->
 
-<!--  <section class="white-section" id="pricing">-->
+  <section id="pricing">
 
-<!--    <h2 class="section-heading">A Plan for Every Dog's Needs</h2>-->
-<!--    <p>Simple and affordable price plans for your and your dog.</p>-->
+    <h2>A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
 
-<!--    <div class="row">-->
+    <div class="row">
 
-<!--      <div class="pricing-column col-lg-4 col-md-6">-->
-<!--        <div class="card">-->
-<!--          <div class="card-header">-->
-<!--            <h3>Chihuahua</h3>-->
-<!--          </div>-->
-<!--          <div class="card-body">-->
-<!--            <h2 class="price-text">Free</h2>-->
-<!--            <p>5 Matches Per Day</p>-->
-<!--            <p>10 Messages Per Day</p>-->
-<!--            <p>Unlimited App Usage</p>-->
-<!--            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
 
-<!--      <div class="pricing-column col-lg-4 col-md-6">-->
-<!--        <div class="card">-->
-<!--          <div class="card-header">-->
-<!--            <h3>Labrador</h3>-->
-<!--          </div>-->
-<!--          <div class="card-body">-->
-<!--            <h2 class="price-text">$49 / mo</h2>-->
-<!--            <p>Unlimited Matches</p>-->
-<!--            <p>Unlimited Messages</p>-->
-<!--            <p>Unlimited App Usage</p>-->
-<!--            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark">Sign up for Free</button>
+          </div>
+        </div>
+      </div>
 
-<!--      <div class="pricing-column col-lg-4">-->
-<!--        <div class="card">-->
-<!--          <div class="card-header">-->
-<!--            <h3>Mastiff</h3>-->
-<!--          </div>-->
-<!--          <div class="card-body">-->
-<!--            <h2 class="price-text">$99 / mo</h2>-->
-<!--            <p>Pirority Listing</p>-->
-<!--            <p>Unlimited Matches</p>-->
-<!--            <p>Unlimited Messages</p>-->
-<!--            <p>Unlimited App Usage</p>-->
-<!--            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>-->
+      <div class="pricing-column col-lg-4 col-md-6">
 
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
+        <div class="card">
 
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2>$49 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-lg btn-block btn-dark">Sign up for Free</button>
+          </div>
+        </div>
+      </div>
 
+      <div class="pricing-column col-lg-4">
+        <div class="card">
 
-<!--    </div>-->
+          <div class="card-header">
+            <h3>Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2>$99 / mo</h2>
+            <!-- <p>Pirority Listing</p> -->
+            <p>Pirority Listing, Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-lg btn-block btn-dark">Sign up for Free</button>
+          </div>
+        </div>
+      </div>
 
-<!--  </section>-->
+    </div>
+
+  </section>
 
 
   <!-- Call to Action -->
 
-  <section class="ending" id="cta">
+  <section id="cta">
 
-    <div class="container-fluid">
+    <h3 class="foot-line">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-buttonn"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg download-buttonn"><i class="fab fa-google-play"></i> Download</button>
 
-      <h3 class="big-heading">Find the Inner Beast With in YOU.</h3>
-      <h3>⬇⬇⬇</h3>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSel6qFKv_upiBHSmRlXwluV3zrgFMKJKXM_acRtr_7XqSG4kg/viewform?usp=sf_link"><button class="button download-button btn btn-lg btn-dark" type="button"> Sign Up</button></a>
-    </div>
   </section>
 
 
@@ -220,7 +228,8 @@
       <i class="social-icon fab fa-twitter"></i>
       <i class="social-icon fab fa-instagram"></i>
       <i class="social-icon fas fa-envelope"></i>
-      <p>© Copyright 2022 Cobra Kai</p>
+      <p>© Copyright 2022 TinDog | Made By : <strong class="myname">ADITYA KULKARNI</strong></p>
+
     </div>
   </footer>
 
